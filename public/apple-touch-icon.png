@@ -1,0 +1,42 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient circle -->
+  <circle cx="90" cy="90" r="90" fill="url(#gradient)" />
+  
+  <!-- Tree trunk -->
+  <rect x="82" y="110" width="16" height="40" rx="8" fill="#8B4513" />
+  
+  <!-- Tree branches/links structure -->
+  <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round">
+    <!-- Main trunk -->
+    <line x1="90" y1="110" x2="90" y2="60" />
+    
+    <!-- Branch levels -->
+    <line x1="90" y1="70" x2="60" y2="40" />
+    <line x1="90" y1="70" x2="120" y2="40" />
+    <line x1="90" y1="80" x2="45" y2="50" />
+    <line x1="90" y1="80" x2="135" y2="50" />
+    <line x1="90" y1="90" x2="30" y2="60" />
+    <line x1="90" y1="90" x2="150" y2="60" />
+    <line x1="90" y1="100" x2="20" y2="70" />
+    <line x1="90" y1="100" x2="160" y2="70" />
+  </g>
+  
+  <!-- Link nodes (circles at branch ends) -->
+  <circle cx="60" cy="40" r="8" fill="#60A5FA" />
+  <circle cx="120" cy="40" r="8" fill="#A78BFA" />
+  <circle cx="45" cy="50" r="8" fill="#34D399" />
+  <circle cx="135" cy="50" r="8" fill="#F59E0B" />
+  <circle cx="30" cy="60" r="8" fill="#EF4444" />
+  <circle cx="150" cy="60" r="8" fill="#EC4899" />
+  <circle cx="20" cy="70" r="8" fill="#06B6D4" />
+  <circle cx="160" cy="70" r="8" fill="#84CC16" />
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

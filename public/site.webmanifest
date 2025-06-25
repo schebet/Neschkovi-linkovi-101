@@ -1,0 +1,56 @@
+{
+  "name": "Моје Линк-Дрво",
+  "short_name": "Линк-Дрво",
+  "description": "Организујте своје линкове лепо са функционалношћу превлачења и угнежђеним групама",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1E3A8A",
+  "background_color": "#1E3A8A",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities"],
+  "lang": "sr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Додај линк",
+      "short_name": "Додај",
+      "description": "Брзо додај нови линк",
+      "url": "/?action=add-link",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Скенирај QR",
+      "short_name": "QR",
+      "description": "Скенирај QR код",
+      "url": "/?action=scan-qr",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
